@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuKu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;600&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes@5.0.11/default/default.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 class="title">BukuKu <span>v 0.1 Beta</span></h1>
+    </header>
+
+    <main>
+        
+        <div class="container">
+            <div class="container">
+                
+            </div>
+            <section class="input_section card-form">
+                <h2>Masukkan Buku Baru</h2>
+                <form id="inputBook">
+                    <div class="input">
+                         <label for="inputBookTitle">Judul</label>
+                        <input id="inputBookTitle" type="text" required>
+                    </div>
+                    <div class="input">
+                        <label for="inputBookAuthor">Penulis</label>
+                        <input id="inputBookAuthor" type="text" required>
+                    </div>
+                    <div class="input">
+                        <label for="inputBookYear">Tahun</label>
+                        <input id="inputBookYear" type="number" required>
+                    </div>
+                    <div class="input_inline">
+                        <label for="inputBookIsComplete">Sudah selesai dibaca</label>
+                        <input id="inputBookIsComplete" type="checkbox">
+                    </div>
+                    <div class="submit">
+                        <button id="bookSubmitComplete" class="complete" type="submit">Tambah Buku</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    
+
+        <section class="book_shelf card-form">
+            <h2>Belum selesai dibaca</h2>
+
+            <div class="container-book-list">
+                <div id="incompleteBookshelfList" class="book_list">
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="book_shelf card-form">
+            <h2>Selesai dibaca</h2>
+
+            <div id="completeBookshelfList" class="book_list">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Dalam Pengembangan</p>
+        <p>By Rianlauo | &copy Rianlauo</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/28297a7c86.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

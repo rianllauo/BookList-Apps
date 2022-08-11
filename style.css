@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding: 16px 24px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 8px rgba(136, 136, 136, 0.2);
+}
+header h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+header span{
+    font-weight: 500;
+    font-size: 14px;
+}
+header p {
+    color: red;
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+.card-form{
+    margin: 10px auto;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(114, 114, 114, 0.2);
+    border-radius: 8px;
+}
+.sidebar{
+    
+    height: fit-content;
+}
+.card-form h2{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 2em;
+}
+#inputBook .input{
+    display: flex;
+    flex-direction: column;
+}
+#inputBook .input label{
+    line-height: 2.5em;
+}
+#inputBook .input input{
+    border: none;
+    background: rgb(243, 243, 243);
+    padding: 14px 20px;
+    border-radius: 8px;
+}
+#inputBook .input input:focus{
+    outline: none;
+}
+
+.submit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+.submit button{
+    margin-right: 10px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.input_inline{
+    margin-top: 13px;
+}
+.complete{
+    background: #293462;
+    transition: 0.3s;
+}
+.complete:hover{
+    background: #1d2647;
+}
+
+/* #searchBook{
+    display: flex;
+    flex-direction: column;
+}
+#searchBook label{
+    line-height: 2.5em;
+}
+#searchBook input{
+    padding: 12px 20px;
+    background: rgb(243, 243, 243);
+    border-radius: 8px;
+    border: none;
+}
+#searchBook button{
+    margin-top: 20px;
+    padding: 12px 18px;
+    border: none;
+    background: #1e90ff;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+} */
+    
+.book_shelf{
+    max-width: 800px;
+}
+
+.book_list{
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+}
+.book_item{
+    flex-grow: 1;
+    padding: 16px 24px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(131, 131, 131, 0.2);
+    line-height: 1.5em;
+}
+.book_item h3{
+    font-weight: 500;
+}
+.book_item p{
+    color: #525252;
+}
+.book_item  button{
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.book_item  .green{
+    background: #293462;
+    transition: 0.3s;
+}
+.book_item  .green:hover{
+    background: #1d2546;
+}
+.book_item  .red{
+    background: #D61C4E;
+    transition: 0.3s;
+}
+.book_item  .red:hover{
+    background: #ce3148;
+}
+
+footer{
+    width: 100%;
+    background: whitesmoke;
+    padding: 16px 20px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
